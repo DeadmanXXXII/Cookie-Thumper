@@ -153,3 +153,6 @@ This tool is intended for authorized security testing only. Do not use it agains
 
 ---
 
+- Certified Web Application Security Tester (PWST)
+![PWST](https://raw.githubusercontent.com/DeadmanXXXII/Curriculum-Vitae/main/Web_Application_Security.png)
+
