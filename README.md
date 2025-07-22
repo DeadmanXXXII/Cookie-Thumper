@@ -1,0 +1,2 @@
+# Cookie-Thumper
+Session hijacker
