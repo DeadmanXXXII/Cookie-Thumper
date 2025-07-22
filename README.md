@@ -156,3 +156,8 @@ This tool is intended for authorized security testing only. Do not use it agains
 - Cookie thumper in action
 ![Terminal](https://raw.githubusercontent.com/DeadmanXXXII/Cookie-Thumper/main/Screenshot_20250722-222557.png)
 
+- Cookie thumper in action
+![Terminal](https://raw.githubusercontent.com/DeadmanXXXII/Cookie-Thumper/main/Screenshot_20250722-224326.png)
+
+
+
