@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 selenium                                                                  
+=======
+selenium
+>>>>>>> fa59a28 (Initial release of Cookie-Thumper)
 beautifulsoup4

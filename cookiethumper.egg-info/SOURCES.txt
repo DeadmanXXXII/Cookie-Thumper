@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+cookies.json
+pyproject.toml
+requirements.txt
+setup.py
+cookiethumper.egg-info/PKG-INFO
+cookiethumper.egg-info/SOURCES.txt
+cookiethumper.egg-info/dependency_links.txt
+cookiethumper.egg-info/entry_points.txt
+cookiethumper.egg-info/requires.txt
+cookiethumper.egg-info/top_level.txt
+venv/.gitignore
+venv/pyvenv.cfg
