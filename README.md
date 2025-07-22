@@ -53,7 +53,7 @@ Setup
     "secure": true
   },
   {
-    "name": "pwned_labs_session",
+    "name": "session",
     "value": "your_session_cookie_value",
     "path": "/",
     "secure": true
