@@ -160,4 +160,96 @@ This tool is intended for authorized security testing only. Do not use it agains
 ![Terminal](https://raw.githubusercontent.com/DeadmanXXXII/Cookie-Thumper/main/Screenshot_20250722-224326.png)
 
 
+Here's a full list of example commands you can use with cookiethumperv1.py script, including various usage patterns for different scenarios:
+
+
+---
+
+✅ Basic Command Example
+```bash
+python3 cookiethumperv1.py \
+  --target-url https://pwnedlabs.io/users/DeadmanXXXII \
+  --login-url https://pwnedlabs.io/auth/google/redirect \
+  --cookie-file cookies.json \
+  --domain pwnedlabs.io
+```
+
+---
+
+🔁 With Session Fixation Testing (Fake Session ID)
+```bash
+python3 cookiethumperv1.py \
+  --target-url https://pwnedlabs.io/dashboard \
+  --login-url https://pwnedlabs.io/auth/login \
+  --cookie-file cookies.json \
+  --domain pwnedlabs.io \
+  --fake-session abcdef1234567890
+```
+
+---
+
+📁 With Cookie File Stored in Subdirectory
+```bash
+python3 cookiethumperv1.py \
+  --target-url https://target.com/user/profile \
+  --login-url https://target.com/login \
+  --cookie-file ./cookies/test-session.json \
+  --domain target.com
+```
+
+---
+
+🐚 Using Shell Variables
+```sh
+URL=https://victim.site/dashboard
+LOGIN=https://victim.site/login
+DOMAIN=victim.site
+COOKIE=cookies.json
+
+python3 cookiethumperv1.py \
+  --target-url $URL \
+  --login-url $LOGIN \
+  --cookie-file $COOKIE \
+  --domain $DOMAIN
+```
+
+---
+
+🧪 Test Against a Localhost Lab
+```
+python3 cookiethumperv1.py \
+  --target-url http://localhost:8000/secure \
+  --login-url http://localhost:8000/login \
+  --cookie-file local-cookies.json \
+  --domain localhost
+```
+
+---
+
+🕶️ Headless Mode with Output Logging
+```bash
+python3 cookiethumperv1.py \
+  --target-url https://internal.dev/session \
+  --login-url https://internal.dev/login \
+  --cookie-file ./auth/dev-session.json \
+  --domain internal.dev \
+  > results.log 2>&1
+```
+
+---
+
+🔄 Automate for Multiple Targets (inside a script loop)
+```bash
+for url in $(cat urls.txt); do
+  python3 cookiethumperv1.py \
+    --target-url "$url" \
+    --login-url "$url/login" \
+    --cookie-file cookies.json \
+    --domain $(echo "$url" | awk -F/ '{print $3}')
+done
+```
+
+---
+
+
 
