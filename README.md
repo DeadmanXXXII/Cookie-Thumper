@@ -62,7 +62,20 @@ Setup
 ```
 Filled out:
 ```json
-[                                                                           {                                                                           "name": "XSRF-TOKEN",                                                     "value": "eyJpdiI6IjZzS1lVTlh2TXZRaXU3T1BVZ0Y3MGc9PSIsInZhbHVlIjoiZ3NZVG5HU2pqT0ZkWmdOdFpHSkhPdz09IiwibWFjIjoiNTFkNzMzZTg0MjQ1ZDUzNTk0MDc3YjI1MTZkZDc2MTQxMjcxMGZjZjVkNzFkOTAzNmIyZTQ1NjVlZDZiZWI5MSJ9",                      "path": "/",                                                              "secure": true                                                          },                                                                        {                                                                           "name": "pwned_labs_session",                                             "value": "eyJpdiI6IkptMUhFV2p5U0Myb1cwRnNnSWVQXC9BPT0iLCJ2YWx1ZSI6IjE3azZ0Q0xuY3pRSkJPNkdtK0ZXaTZzZ0prb3hVaWFTYWhkT0lxRmN0bFhFZFpnZXZMQnd0Y0xXRU1pUGNLUkJ6QzRSQlladDBVb3VvSjd4d1ZURmU5b2lRcGpUb1ZvYkhtNzNsYVd6RXNkVE5MS29ZdWthVmppV0pXbmNBVkpNbWlMUEpZaHljZGxZNG9RMVpBVGdKZGdHd3pZUWxMZ0RjMTQ3S0s4N3Z3YVhmT0hRZG0wRUlBSmxOeGFpYXVZdG8iLCJtYWMiOiJjOWQxMjFmN2U2YmExODg2NjcxMGU5ZjQ1YjJjZGY1MmYxYmFlNzUyYmZmZDQzZDkyYjQ4ZjI3NzZhOWY4NTRkODliIn0=",            "path": "/",                                                              "secure": true                                                          }                                                                       ]
+[
+  {
+    "name": "XSRF-TOKEN",
+    "value": "eyJpdiI6IjZzS1lVTlh2TXZRaXU3T1BVZ0Y3MGc9PSIsInZhbHVlIjoiZ3NZVG5HU2pqT0ZkWmdOdFpHSkhPdz09IiwibWFjIjoiNTFkNzMzZTg0MjQ1ZDUzNTk0MDc3YjI1MTZkZDc2MTQxMjcxMGZjZjVkNzFkOTAzNmIyZTQ1NjVlZDZiZWI5MSJ9",
+    "path": "/",
+    "secure": true
+  },
+  {
+    "name": "pwned_labs_session",
+    "value": "eyJpdiI6IkptMUhFV2p5U0Myb1cwRnNnSWVQXC9BPT0iLCJ2YWx1ZSI6IjE3azZ0Q0xuY3pRSkJPNkdtK0ZXaTZzZ0prb3hVaWFTYWhkT0lxRmN0bFhFZFpnZXZMQnd0Y0xXRU1pUGNLUkJ6QzRSQlladDBVb3VvSjd4d1ZURmU5b2lRcGpUb1ZvYkhtNzNsYVd6RXNkVE5MS29ZdWthVmppV0pXbmNBVkpNbWlMUEpZaHljZGxZNG9RMVpBVGdKZGdHd3pZUWxMZ0RjMTQ3S0s4N3Z3YVhmT0hRZG0wRUlBSmxOeGFpYXVZdG8iLCJtYWMiOiJjOWQxMjFmN2U2YmExODg2NjcxMGU5ZjQ1YjJjZGY1MmYxYmFlNzUyYmZmZDQzZDkyYjQ4ZjI3NzZhOWY4NTRkODliIn0=",
+    "path": "/",
+    "secure": true
+  }
+]                                                                       
 ```
 
 
