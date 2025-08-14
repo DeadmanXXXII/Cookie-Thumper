@@ -40,7 +40,7 @@ Setup
 
 1. Place ChromeDriver in your system and update the path in the script if necessary (default /usr/bin/chromedriver).
 
-2. If you have used my other tools LS5, Torscraper it will be there anyway or you altered the oath in th to suit your needs.
+2. If you have used my other tools LS5, Torscraper it will be there anyway or you altered the path to suit your needs.
 
 
 3. Prepare your cookies JSON file (cookies.json) with cookies from the target domain, example:
