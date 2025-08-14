@@ -255,4 +255,7 @@ done
 <<<<<<< HEAD
 
 =======
->>>>>>> fa59a28 (Initial release of Cookie-Thumper)
+
+>>>>>>> fa59a28
+>>>>>>>
+>>>>>>> (Initial release of Cookie-Thumper)
